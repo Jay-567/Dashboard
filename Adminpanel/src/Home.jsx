@@ -63,33 +63,94 @@ function Home() {
         <div className='main-cards'>
             <div className='card'>
                 <div className='card-inner'>
-                    <h3>PRODUCTS</h3>
+                    <h3>Total Products</h3>
                     <BsFillArchiveFill className='card_icon'/>
                 </div>
                 <h1>300</h1>
             </div>
+            {/* <div className='card'> */}
+                {/* <div className='card-inner'> */}
+                    {/* <h3>CATEGORIES</h3> */}
+                    {/* <BsFillGrid3X3GapFill className='card_icon'/> */}
+                {/* </div> */}
+                {/* <h1>12</h1> */}
+            {/* </div> */}
+            
             <div className='card'>
                 <div className='card-inner'>
-                    <h3>CATEGORIES</h3>
-                    <BsFillGrid3X3GapFill className='card_icon'/>
-                </div>
-                <h1>12</h1>
-            </div>
-            <div className='card'>
-                <div className='card-inner'>
-                    <h3>CUSTOMERS</h3>
+                    <h3>Total Orders</h3>
                     <BsPeopleFill className='card_icon'/>
                 </div>
                 <h1>33</h1>
             </div>
             <div className='card'>
                 <div className='card-inner'>
-                    <h3>ALERTS</h3>
+                    <h3>Total Customers</h3>
                     <BsFillBellFill className='card_icon'/>
                 </div>
                 <h1>42</h1>
             </div>
+            <div className='card'>
+    <div className='card-inner'>
+        <h3>Total Purchase</h3>
+        <BsPeopleFill className='card_icon'/>
+    </div>
+    <h1>33</h1>
+</div>  
+<div className='card'>
+    <div className='card-inner'>
+        <h3>Total Sales</h3>
+        <BsPeopleFill className='card_icon'/>
+    </div>
+    <h1>33</h1>
+</div> 
+{/* <div className='card'> */}
+    {/* <div className='card-inner'> */}
+        {/* <h3>Total Products</h3> */}
+        {/* <BsPeopleFill className='card_icon'/> */}
+    {/* </div> */}
+    {/* <h1>33</h1> */}
+{/* </div>  */}
+{/* <div className='card'> */}
+    {/* <div className='card-inner'> */}
+        {/* <h3>Total Cancellations</h3> */}
+        {/* <BsPeopleFill className='card_icon'/> */}
+    {/* </div> */}
+    {/* <h1>33</h1> */}
+{/* </div>  */}
+<div className='card'>
+    <div className='card-inner'>
+        <h3>Spare Parts</h3>
+        <BsPeopleFill className='card_icon'/>
+    </div>
+    <h1>33</h1>
+</div> 
+<div className='card'>
+    <div className='card-inner'>
+        <h3>Quotes</h3>
+        <BsPeopleFill className='card_icon'/>
+    </div>
+    <h1>33</h1>
+</div> 
+<div className='card'>
+    <div className='card-inner'>
+        <h3>Amazon Orders</h3>
+        <BsPeopleFill className='card_icon'/>
+    </div>
+    <h1>33</h1>
+</div> 
+<div className='card'>
+    <div className='card-inner'>
+        <h3>Flipcart Orders</h3>
+        <BsPeopleFill className='card_icon'/>
+    </div>
+    <h1>33</h1>
+</div> 
+
         </div>
+
+      
+        
 
         <div className='charts'>
             <ResponsiveContainer width="100%" height="100%">
