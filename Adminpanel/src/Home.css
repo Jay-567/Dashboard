@@ -1,0 +1,150 @@
+/* Main Container */
+.main-container {
+  padding: 20px;
+  background-color: #f8f9fc;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Search Bar */
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar {
+  width: 80%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Main Cards Container */
+.main-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Card Styling */
+.main-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_icon {
+  font-size: 40px;
+  color: #5f6370;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #626468;
+  margin-top: 10px;
+}
+
+/* Social Media Section */
+.social-media-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.social-media-container h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.social-media-links a {
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+}
+
+.social-icon {
+  font-size: 30px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #32353e;
+}
+
+.social-media-links span {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* Bar Chart Section */
+.chart-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+
+
+.chart-container {
+  margin-top: 40px;
+  padding: 0px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto;
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.social-media-link:hover {
+  text-decoration: underline;
+}
